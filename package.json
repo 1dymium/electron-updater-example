@@ -8,10 +8,10 @@
     "publish": "GH_TOKEN=`cat GH_TOKEN` electron-builder --publish always"
   },
   "devDependencies": {
-    "electron": "^14.0.1"
+    "electron": "^14.0.1",
+    "electron-builder": "^22.14.13"
   },
   "dependencies": {
-    "electron-builder": "^22.14.13",
     "electron-updater": "^4.3.9"
   },
   "build": {
