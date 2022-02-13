@@ -8,9 +8,7 @@
     "publish": "GH_TOKEN=`cat GH_TOKEN` electron-builder --publish always"
   },
   "devDependencies": {
-    "electron": "^14.0.1",
-    "electron-builder": "^22.11.7",
-    "electron-notarize": "^1.1.1"
+    "electron": "^14.0.1"
   },
   "dependencies": {
     "electron-log": "^4.4.1",
