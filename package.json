@@ -11,7 +11,7 @@
     "electron": "^14.0.1"
   },
   "dependencies": {
-    "electron-log": "^4.4.1",
+    "electron-builder": "^22.14.13",
     "electron-updater": "^4.3.9"
   },
   "build": {
