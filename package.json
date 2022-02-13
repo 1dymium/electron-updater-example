@@ -1,11 +1,11 @@
 {
   "name": "electron-updater-example",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
   "scripts": {
-    "publish": "GH_TOKEN=`cat GH_TOKEN` electron-builder -p always"
+    "publish": "GH_TOKEN=`cat GH_TOKEN` electron-builder --publish always"
   },
   "devDependencies": {
     "electron": "^14.0.1",
