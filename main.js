@@ -1,6 +1,6 @@
 // This is free and unencumbered software released into the public domain.
 // See LICENSE for details
-
+require('dotenv').config()
 const {app, BrowserWindow, Menu} = require('electron');
 const log = require('electron-log');
 const {autoUpdater} = require("electron-updater");
